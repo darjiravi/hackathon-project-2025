@@ -1,0 +1,15 @@
+.app {
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #45b54a;
+  --text-color: #333;
+  --background-color: #f5f5f5;
+}
