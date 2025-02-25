@@ -1,1 +1,1 @@
-# This a Hackathon Project 2025 GECG
+# This a Hackathon Project 2025 
