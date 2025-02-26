@@ -1,17 +1,40 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 import SearchSection from "./components/SearchSection";
-import Categories from "./components/Categories";
+import Categories from "./components/Categories/Categories";
 import "./App.css";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Login from "./Pages/auth/Login";
+import Signup from "./Pages/auth/Signup";
+import Register from "./Pages/Register";
+import FarmerRegistration from "./Pages/auth/FarmerRegistration";
 
-function App() {
+function Home() {
   return (
-    <div className="app">
+    <>
       <Navbar />
       <Hero />
       <SearchSection />
       <Categories />
-    </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/register/farmer-registration" element={<FarmerRegistration />} />
+        <Route path="/register/sign-up" element={<Signup />} />
+      </Routes>
+    </Router>
   );
 }
 
