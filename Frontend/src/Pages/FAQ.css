@@ -1,0 +1,12 @@
+.faqs {
+    height: 50rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.faqs h1,p{
+    
+    text-align: center;
+    margin: 2rem;
+}

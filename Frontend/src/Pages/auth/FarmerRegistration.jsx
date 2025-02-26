@@ -6,7 +6,7 @@ import Navbar from "../../components/Navbar/Navbar";
 function FarmerRegistration() {
   return (
     <>
-      <Navbar />
+      <Navbar right={false}/>
 
       <div className="registration-box">
         <div className="farmer-registration">

@@ -1,8 +1,10 @@
 .footer {
   background-color: #333;
-  color: white;
+  color: whitesmoke;
   padding: 20px 0;
   text-align: center;
+  /* background-image:  url("https://images.pexels.com/photos/259280/pexels-photo-259280.jpeg?cs=srgb&dl=pexels-pixabay-259280.jpg&fm=jpg"); */
+  border-radius: 5px;
 }
 
 .footer-content {
@@ -46,6 +48,6 @@
 
 .footer-bottom {
   margin-top: 20px;
-  border-top: 1px solid #444;
+  /* border-top: 1px solid #444; */
   padding-top: 10px;
 }

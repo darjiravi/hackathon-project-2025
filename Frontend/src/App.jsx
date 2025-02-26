@@ -13,6 +13,7 @@ import Signup from "./Pages/auth/Signup";
 import Register from "./Pages/Register";
 import FarmerRegistration from "./Pages/auth/FarmerRegistration";
 import Footer from "./components/Footer/Footer";
+import FAQ from "./Pages/FAQs";
 
 function Home() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/register/farmer-registration" element={<FarmerRegistration />} />
         <Route path="/register/sign-up" element={<Signup />} />
+        <Route path="/faqs" element={<FAQ />} />
       </Routes>
     </Router>
   );
