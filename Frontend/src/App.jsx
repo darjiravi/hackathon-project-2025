@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import SearchSection from "./components/SearchSection";
+import SearchSection from "./components/SearchSection/SearchSection";
 import Categories from "./components/Categories/Categories";
 import "./App.css";
 import {
@@ -12,6 +12,7 @@ import Login from "./Pages/auth/Login";
 import Signup from "./Pages/auth/Signup";
 import Register from "./Pages/Register";
 import FarmerRegistration from "./Pages/auth/FarmerRegistration";
+import Footer from "./components/Footer/Footer";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <Hero />
       <SearchSection />
       <Categories />
+      <Footer />
     </>
   );
 }
