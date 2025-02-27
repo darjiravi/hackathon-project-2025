@@ -1,25 +1,32 @@
-import React from 'react'
+import React from "react";
 import "./FarmerRegistration.css";
+import Progress from "../../components/Stepper/Progress";
+import Navbar from "../../components/Navbar/Navbar";
 
 function FarmerRegistration() {
   return (
-    <div className='farmer-registration'> 
-      <h1>Farmer Registration</h1>
-      <p>Get Started Selling Today! Simply complete the registration process and unlock the power to sell your products on Organic Farm.</p>
+    <>
+      <Navbar />
 
+      <div className="registration-box">
+        <div className="farmer-registration">
+          <h1>Farmer Registration</h1>
+          <p>
+            Get Started Selling Today! Simply complete the registration process
+            and unlock the power to sell your products on Organic Farm.
+          </p>
 
-      <hr />
+          <hr />
 
-      <div className="progrssBar">
-        progrssBar
+          <Progress />
+
+          <form action="">
+            <h1>Form here</h1>
+          </form>
+        </div>
       </div>
-
-      <form action="">
-        <h1>Form here</h1>
-      </form>
-
-    </div>
-  )
+    </>
+  );
 }
 
-export default FarmerRegistration
+export default FarmerRegistration;
