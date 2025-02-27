@@ -65,6 +65,10 @@
 }
 
 @media (max-width: 768px) {
+
+  .navbar {
+    padding: 1rem 1rem;
+  }
   .nav-links {
     display: none;
   }

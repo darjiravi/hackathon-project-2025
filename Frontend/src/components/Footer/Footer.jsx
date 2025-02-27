@@ -42,3 +42,67 @@ export default function Footer() {
     </footer>
   );
 }
+
+// footer -2 
+
+// import React from 'react';  
+// import './Footer.css'; // Import your custom CSS file  
+
+// const Footer = () => {  
+//   return (  
+//     <footer className="footer">  
+//       <div className="footer-top">  
+//         <div className="social-links">  
+//           <span>Get connected with us on social networks:</span>  
+//           <a href="#" className="icon">Facebook</a>  
+//           <a href="#" className="icon">Twitter</a>  
+//           <a href="#" className="icon">Google</a>  
+//           <a href="#" className="icon">Instagram</a>  
+//           <a href="#" className="icon">LinkedIn</a>  
+//           <a href="#" className="icon">GitHub</a>  
+//         </div>  
+//       </div>  
+
+//       <div className="footer-content">  
+//         <div className="footer-section">  
+//           <h6 className="footer-title">Company Name</h6>  
+//           <p>  
+//             Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,  
+//             consectetur adipisicing elit.  
+//           </p>  
+//         </div>  
+
+//         <div className="footer-section">  
+//           <h6 className="footer-title">Products</h6>  
+//           <p><a href="#!" className="footer-link">Angular</a></p>  
+//           <p><a href="#!" className="footer-link">React</a></p>  
+//           <p><a href="#!" className="footer-link">Vue</a></p>  
+//           <p><a href="#!" className="footer-link">Laravel</a></p>  
+//         </div>  
+
+//         <div className="footer-section">  
+//           <h6 className="footer-title">Useful links</h6>  
+//           <p><a href="#!" className="footer-link">Pricing</a></p>  
+//           <p><a href="#!" className="footer-link">Settings</a></p>  
+//           <p><a href="#!" className="footer-link">Orders</a></p>  
+//           <p><a href="#!" className="footer-link">Help</a></p>  
+//         </div>  
+
+//         <div className="footer-section">  
+//           <h6 className="footer-title">Contact</h6>  
+//           <p>New York, NY 10012, US</p>  
+//           <p>Email: info@example.com</p>  
+//           <p>Phone: +01 234 567 88</p>  
+//         </div>  
+//       </div>  
+
+//       <div className="footer-bottom">  
+//         <p>© 2021 Copyright:   
+//           <a href="https://example.com" className="footer-link"> example.com</a>  
+//         </p>  
+//       </div>  
+//     </footer>  
+//   );  
+// };  
+
+// export default Footer;  

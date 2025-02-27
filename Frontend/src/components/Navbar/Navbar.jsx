@@ -5,6 +5,7 @@ import logo from "../../assets/logo.png";
 import Avatar from "@mui/material/Avatar";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import Menubar from "./Menubar";
 
 function Navbar({ right = true}) {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -29,6 +30,9 @@ function Navbar({ right = true}) {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [drawerOpen]);
+
+  let isMenubarClick = false;
+
 
   return (
     <nav className="navbar">
@@ -83,7 +87,7 @@ function Navbar({ right = true}) {
       )}
 
           <button className="menu-button">
-            <Menu />
+            <Menubar></Menubar>
           </button>
     </nav>
   );

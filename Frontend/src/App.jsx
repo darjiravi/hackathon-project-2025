@@ -20,7 +20,7 @@ function Home() {
     <>
       <Navbar />
       <Hero />
-      <SearchSection />
+      {/* <SearchSection /> */}
       <Categories />
       <Footer />
     </>
